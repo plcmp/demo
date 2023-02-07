@@ -1,0 +1,19 @@
+{
+  "name": "pl-demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "start": "web-dev-server --open demo/ --node-resolve"
+  },
+  "dependencies": {
+    "@web/dev-server": "^0.1.28",
+    "polylib": "^1.1.7",
+    "@plcmp/pl-input": "^0.1.0",
+    "@plcmp/pl-datetime": "^0.1.0",
+    "@plcmp/pl-combobox": "^0.1.0",
+    "@plcmp/pl-grid": "^0.1.0",
+    "@plcmp/pl-button": "^0.1.0",
+    "@plcmp/pl-flex-layout": "0.1.0"
+  }
+}
